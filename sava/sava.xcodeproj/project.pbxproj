@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7214F9422B601E3500B744C5 /* savaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214F9412B601E3500B744C5 /* savaApp.swift */; };
+		7214F9442B601E3500B744C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214F9432B601E3500B744C5 /* ContentView.swift */; };
+		7214F9462B601E3700B744C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7214F9452B601E3700B744C5 /* Assets.xcassets */; };
+		7214F94A2B601E3700B744C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7214F9492B601E3700B744C5 /* Preview Assets.xcassets */; };
+		7214F9522B601EE300B744C5 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214F9512B601EE300B744C5 /* AppViewModel.swift */; };
+		729A761E2B652225007D95ED /* SaveGridItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A761D2B652225007D95ED /* SaveGridItemImageView.swift */; };
+		729A76212B652A1E007D95ED /* SwiftImgResize in Frameworks */ = {isa = PBXBuildFile; productRef = 729A76202B652A1E007D95ED /* SwiftImgResize */; };
+		729A76232B666D55007D95ED /* SwiftImgResize+Sava.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A76222B666D55007D95ED /* SwiftImgResize+Sava.swift */; };
+		729A76262B668758007D95ED /* SavaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A76252B668758007D95ED /* SavaImage.swift */; };
+		729A76292B668DDC007D95ED /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 729A76282B668DDC007D95ED /* Kingfisher */; };
+		729A762B2B669714007D95ED /* OutputSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A762A2B669714007D95ED /* OutputSize.swift */; };
+		72DA9BB12B6BEE0C0088ED1B /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA9BB02B6BEE0C0088ED1B /* AppError.swift */; };
+		72E789002B6FDAC3004D8065 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E788FF2B6FDAC3004D8065 /* Launch Screen.storyboard */; };
+		72FBAF152B6C3CE300A6F69F /* URL+sava.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBAF142B6C3CE300A6F69F /* URL+sava.swift */; };
+		72FBAF172B6E87B500A6F69F /* SuccessAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBAF162B6E87B500A6F69F /* SuccessAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7214F93E2B601E3500B744C5 /* sava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7214F9412B601E3500B744C5 /* savaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savaApp.swift; sourceTree = "<group>"; };
+		7214F9432B601E3500B744C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7214F9452B601E3700B744C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7214F9472B601E3700B744C5 /* sava.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sava.entitlements; sourceTree = "<group>"; };
+		7214F9492B601E3700B744C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7214F9502B601E7A00B744C5 /* SwiftImgResize */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftImgResize; path = ../SwiftImgResize; sourceTree = "<group>"; };
+		7214F9512B601EE300B744C5 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		729A761D2B652225007D95ED /* SaveGridItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGridItemImageView.swift; sourceTree = "<group>"; };
+		729A76222B666D55007D95ED /* SwiftImgResize+Sava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftImgResize+Sava.swift"; sourceTree = "<group>"; };
+		729A76252B668758007D95ED /* SavaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavaImage.swift; sourceTree = "<group>"; };
+		729A762A2B669714007D95ED /* OutputSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputSize.swift; sourceTree = "<group>"; };
+		72DA9BB02B6BEE0C0088ED1B /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		72E788FF2B6FDAC3004D8065 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		72FBAF142B6C3CE300A6F69F /* URL+sava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+sava.swift"; sourceTree = "<group>"; };
+		72FBAF162B6E87B500A6F69F /* SuccessAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessAlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7214F93B2B601E3500B744C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729A76292B668DDC007D95ED /* Kingfisher in Frameworks */,
+				729A76212B652A1E007D95ED /* SwiftImgResize in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7214F9352B601E3500B744C5 = {
+			isa = PBXGroup;
+			children = (
+				7214F9502B601E7A00B744C5 /* SwiftImgResize */,
+				7214F9402B601E3500B744C5 /* sava */,
+				7214F93F2B601E3500B744C5 /* Products */,
+				729A761F2B652A1E007D95ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7214F93F2B601E3500B744C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7214F93E2B601E3500B744C5 /* sava.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7214F9402B601E3500B744C5 /* sava */ = {
+			isa = PBXGroup;
+			children = (
+				72FBAF132B6C3CD100A6F69F /* Extensions */,
+				729A76242B668748007D95ED /* Model */,
+				729A761A2B6521EE007D95ED /* Views */,
+				7214F9412B601E3500B744C5 /* savaApp.swift */,
+				7214F9432B601E3500B744C5 /* ContentView.swift */,
+				7214F9452B601E3700B744C5 /* Assets.xcassets */,
+				7214F9472B601E3700B744C5 /* sava.entitlements */,
+				7214F9482B601E3700B744C5 /* Preview Content */,
+				7214F9512B601EE300B744C5 /* AppViewModel.swift */,
+				729A76222B666D55007D95ED /* SwiftImgResize+Sava.swift */,
+				72DA9BB02B6BEE0C0088ED1B /* AppError.swift */,
+				72E788FF2B6FDAC3004D8065 /* Launch Screen.storyboard */,
+			);
+			path = sava;
+			sourceTree = "<group>";
+		};
+		7214F9482B601E3700B744C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7214F9492B601E3700B744C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		729A761A2B6521EE007D95ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				729A761D2B652225007D95ED /* SaveGridItemImageView.swift */,
+				72FBAF162B6E87B500A6F69F /* SuccessAlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		729A761F2B652A1E007D95ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		729A76242B668748007D95ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				729A76252B668758007D95ED /* SavaImage.swift */,
+				729A762A2B669714007D95ED /* OutputSize.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72FBAF132B6C3CD100A6F69F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72FBAF142B6C3CE300A6F69F /* URL+sava.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7214F93D2B601E3500B744C5 /* sava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7214F94D2B601E3700B744C5 /* Build configuration list for PBXNativeTarget "sava" */;
+			buildPhases = (
+				7214F93A2B601E3500B744C5 /* Sources */,
+				7214F93B2B601E3500B744C5 /* Frameworks */,
+				7214F93C2B601E3500B744C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sava;
+			packageProductDependencies = (
+				729A76202B652A1E007D95ED /* SwiftImgResize */,
+				729A76282B668DDC007D95ED /* Kingfisher */,
+			);
+			productName = sava;
+			productReference = 7214F93E2B601E3500B744C5 /* sava.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7214F9362B601E3500B744C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7214F93D2B601E3500B744C5 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 7214F9392B601E3500B744C5 /* Build configuration list for PBXProject "sava" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7214F9352B601E3500B744C5;
+			packageReferences = (
+				729A76272B668DDC007D95ED /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 7214F93F2B601E3500B744C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7214F93D2B601E3500B744C5 /* sava */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7214F93C2B601E3500B744C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E789002B6FDAC3004D8065 /* Launch Screen.storyboard in Resources */,
+				7214F94A2B601E3700B744C5 /* Preview Assets.xcassets in Resources */,
+				7214F9462B601E3700B744C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7214F93A2B601E3500B744C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729A762B2B669714007D95ED /* OutputSize.swift in Sources */,
+				72FBAF172B6E87B500A6F69F /* SuccessAlertView.swift in Sources */,
+				729A761E2B652225007D95ED /* SaveGridItemImageView.swift in Sources */,
+				7214F9442B601E3500B744C5 /* ContentView.swift in Sources */,
+				729A76262B668758007D95ED /* SavaImage.swift in Sources */,
+				72FBAF152B6C3CE300A6F69F /* URL+sava.swift in Sources */,
+				72DA9BB12B6BEE0C0088ED1B /* AppError.swift in Sources */,
+				729A76232B666D55007D95ED /* SwiftImgResize+Sava.swift in Sources */,
+				7214F9422B601E3500B744C5 /* savaApp.swift in Sources */,
+				7214F9522B601EE300B744C5 /* AppViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7214F94B2B601E3700B744C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7214F94C2B601E3700B744C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7214F94E2B601E3700B744C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sava/sava.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sava/Preview Content\"";
+				DEVELOPMENT_TEAM = RK3RLP5S33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app uses the photo library to save resized images.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersonicbyte.sava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7214F94F2B601E3700B744C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sava/sava.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sava/Preview Content\"";
+				DEVELOPMENT_TEAM = RK3RLP5S33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app uses the photo library to save resized images.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.supersonicbyte.sava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7214F9392B601E3500B744C5 /* Build configuration list for PBXProject "sava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7214F94B2B601E3700B744C5 /* Debug */,
+				7214F94C2B601E3700B744C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7214F94D2B601E3700B744C5 /* Build configuration list for PBXNativeTarget "sava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7214F94E2B601E3700B744C5 /* Debug */,
+				7214F94F2B601E3700B744C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		729A76272B668DDC007D95ED /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		729A76202B652A1E007D95ED /* SwiftImgResize */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftImgResize;
+		};
+		729A76282B668DDC007D95ED /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 729A76272B668DDC007D95ED /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7214F9362B601E3500B744C5 /* Project object */;
+}
