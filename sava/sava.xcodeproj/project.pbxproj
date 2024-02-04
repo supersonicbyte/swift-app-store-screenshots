@@ -19,7 +19,7 @@
 		729A76292B668DDC007D95ED /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 729A76282B668DDC007D95ED /* Kingfisher */; };
 		729A762B2B669714007D95ED /* OutputSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A762A2B669714007D95ED /* OutputSize.swift */; };
 		72DA9BB12B6BEE0C0088ED1B /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA9BB02B6BEE0C0088ED1B /* AppError.swift */; };
-		72E789002B6FDAC3004D8065 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E788FF2B6FDAC3004D8065 /* Launch Screen.storyboard */; };
+		72E789002B6FDAC3004D8065 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E788FF2B6FDAC3004D8065 /* Launch Screen.storyboard */; platformFilter = ios; };
 		72FBAF152B6C3CE300A6F69F /* URL+sava.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBAF142B6C3CE300A6F69F /* URL+sava.swift */; };
 		72FBAF172B6E87B500A6F69F /* SuccessAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBAF162B6E87B500A6F69F /* SuccessAlertView.swift */; };
 /* End PBXBuildFile section */
